@@ -33,7 +33,7 @@ namespace ds.test.impl
         /// <summary>
         /// Получение массива наименований плагинов
         /// </summary>
-        /// <returns>Массив string</returns>
+        /// <returns>Массив string с названиями плагинов</returns>
         public static string[] GetPluginNames()
         {
             string[] pluginNames = new string[_plugins.Length];
